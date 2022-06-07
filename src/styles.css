@@ -31,7 +31,7 @@ ul {
   list-style-type: none;
   width: 500px;
   justify-content: space-around;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 li {
@@ -131,7 +131,7 @@ p {
 
 .project-card {
   width: 500px;
-  height: 500px;
+  height: 450px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
 }
@@ -221,8 +221,41 @@ a {
 }
 
 .cta-btn:hover {
-    background-color: #fff;
-    color: #1c1d25;
-    text-decoration: none;
-   
-    }
+  background-color: #1c1d25;
+  color: white;
+  text-decoration: none;
+}
+.cta-btn--resume:hover {
+    display: inline-block;
+    position: relative;
+    padding: 0.8rem 1.6rem;
+    font-weight: bold;
+    line-height: 1;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+    font-size: 16px;
+}
+.cta-btn--resume {
+  background-color: #fff;
+  color: #1c1d25;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  width: 5rem;
+  height: 5rem;
+  margin: 4rem 1.6rem;
+  transition: all 0.2s ease-in;
+}
+.icon:hover {
+  transform: translateY(-2px);
+}
