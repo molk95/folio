@@ -45,7 +45,7 @@ h1 {
 
 h2 {
   font-size: 50px;
-  margin-bottom: 0%;
+  margin-bottom: 16px;
 }
 
 p {
@@ -58,6 +58,7 @@ p {
 .subtext {
   font-size: 12px;
   font-weight: 300;
+  margin: 16px;
 }
 
 .hero-area {
@@ -162,6 +163,16 @@ hr {
 .project-link {
   text-decoration: none;
   color: #ef744b;
+  margin-top: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  font-weight: 600;
+}
+.project-link:hover {
+    background-color: #ef744b;
+    color: #fff;
+    text-decoration: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  
 }
 
 a {
